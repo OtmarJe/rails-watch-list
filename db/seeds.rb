@@ -29,4 +29,4 @@ movies.each do |movie|
     rating: movie['vote_average'] )
 end
 
-bookmar = Bookmark.create(movie: Movie.first, list: List.first)
+bookmark = Bookmark.create(movie: Movie.first, list: List.first, comment: "good movie")
